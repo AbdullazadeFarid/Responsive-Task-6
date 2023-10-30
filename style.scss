@@ -1,0 +1,60 @@
+@import "./mixins";
+
+
+#main{
+
+    .section{
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh;
+        
+
+        @include mobile{
+            display: block;
+        }
+    
+
+        .section1{
+            .title{
+                margin-bottom: 20%;
+                font-weight: 700;
+                font-size: 38px;
+
+                
+            }
+
+            .person_photo{
+                margin-top: -12%;
+            }
+
+            .text{
+                color: #737373;
+            }
+            .star{
+                margin-top: 6%;
+                
+        .name{
+            color: #23a6f0
+
+         }
+         .profession{
+            margin-top: -3%;
+         }
+
+        }
+    }
+        
+        .section2{
+            
+         
+
+            
+        }
+
+    }
+}
+
+
+

@@ -1,0 +1,32 @@
+#main .section {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 575px) {
+  #main .section {
+    display: block;
+  }
+}
+#main .section .section1 .title {
+  margin-bottom: 20%;
+  font-weight: 700;
+  font-size: 38px;
+}
+#main .section .section1 .person_photo {
+  margin-top: -12%;
+}
+#main .section .section1 .text {
+  color: #737373;
+}
+#main .section .section1 .star {
+  margin-top: 6%;
+}
+#main .section .section1 .star .name {
+  color: #23a6f0;
+}
+#main .section .section1 .star .profession {
+  margin-top: -3%;
+}/*# sourceMappingURL=style.css.map */
